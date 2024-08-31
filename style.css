@@ -16,36 +16,16 @@ body {
 
 .counter {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 49.5%;
+  top: 45%;
   transform: translate(-50%, -50%);
   font-size: 4rem;
   height: 20rem;
-  /* 
-  background-color: #6c4e31; */
-}
-
-.counter__para {
-  position: absolute;
-  right: 45%;
-}
-
-.btn {
-  background: none;
-  border: none;
-  color: #000;
-  background-color: #fff;
-  width: 10rem;
-  height: 5rem;
-  font-size: 2rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  margin-top: 30rem;
 }
 
 .counter__img {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 30%;
 }
 
