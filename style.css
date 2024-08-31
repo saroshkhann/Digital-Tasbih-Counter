@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdbb5;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.counter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  height: 20rem;
+  /* 
+  background-color: #6c4e31; */
+}
+
+.counter__para {
+  position: absolute;
+  right: 45%;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: #000;
+  background-color: #fff;
+  width: 10rem;
+  height: 5rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-top: 30rem;
+}
+
+.counter__img {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.inc {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 58%;
+  right: 41%;
+  cursor: pointer;
+}
+
+.res {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  cursor: pointer;
+}
